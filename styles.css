@@ -1,0 +1,132 @@
+/****************** BASE STYLES ******************/
+body{
+  text-align: left;
+  background-color: #FEFFDB;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+
+}
+
+h1{
+  color: #ff8b00;
+}
+
+h2{
+  font-weight: 700;
+}
+
+
+
+
+/****************** CLASS STYLES ******************/
+.all-boxes{
+width: 50%;
+height: auto;
+  position: relative;
+  margin: 100px auto 0 auto;
+
+}
+.top-box{
+  background-color: #ffffff;
+  position: relative;
+  margin: 0;
+  padding: 10px;
+  font-family: 'Roboto Slab', serif;
+  border-radius: 10% 10% 0 0;
+}
+.bottom-left-box{
+  background-color: #ff8b00;
+  position: relative;
+  float: left;
+width: 50%;
+height: 230px;
+margin: auto;
+border-bottom-left-radius: 10%;
+bottom: inherit;
+
+
+}
+.bottom-right-box{
+  background: #ff8b00;
+  background:rgba(225, 139, 0, .8);
+ position: relative;
+  float: right;
+  width: 50%;
+  height:230px;
+  margin: auto;
+  border-bottom-right-radius: 10%;
+
+
+}
+
+.headings-below{
+  margin-left: 10px;
+  color: #FEFFDB;
+
+}
+
+.top-paragraph{
+  line-height: 2;
+
+}
+
+.bottom-paragraph{
+  margin: 5px auto 5px 10px;
+  color: #FEFFDB;
+  line-height: 2;
+}
+
+.top-h2{
+  color: #ffc60b
+}
+
+.price{
+  font-size: 20px;
+  font-weight: 700;
+  color: #FEFFDB;
+}
+
+.list-below{
+  color: #FEFFDB;
+  line-height: 1.5;
+  margin-left: 10px;
+  padding: 0;
+  font-weight: 400;
+
+
+}
+
+
+.button-box{
+  position: relative;
+  padding: 9px;
+  margin:10px;
+}
+.sign-up-btn {
+	background:linear-gradient(to bottom, #ffc60b 5%, #c29408 100%);
+	background-color:#ffc60b;
+	border-radius:28px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px  #ffc60b;
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  width: 62%;
+
+
+}
+.sign-up-btn:hover {
+	background:linear-gradient(to bottom, #c29408 5%, #ffc60b 100%);
+	background-color:#c29408;
+}
+.sign-up-btn:active {
+	position:relative;
+	top:1px;
+}
